@@ -1,3 +1,5 @@
+# https://projecteuler.net/problem=1
+
 def f(n):
 
   res = 0

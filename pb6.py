@@ -1,3 +1,5 @@
+# https://projecteuler.net/problem=6
+
 def sum_k(n):
   return (n*(n+1))//2
 
