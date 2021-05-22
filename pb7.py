@@ -1,4 +1,4 @@
-# https://projecteuler.net/problem=7 res 104743
+# https://projecteuler.net/problem=7
 
 import math
 
