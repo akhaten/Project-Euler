@@ -1,9 +1,12 @@
 def reverseNumber(n, acc=0):
+  
   q = n//10
   r = n%10
   acc = acc*10+r
+  
   if(n < 10):
     return acc
+  
   return reverseNumber(q, acc)
 
 def isNumberPalindromic(n):
