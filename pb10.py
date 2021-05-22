@@ -4,11 +4,11 @@ import math
 
 def isPrime(n):
   
-  racine_n = int(math.sqrt(n)) + 1
+  root_n = int(math.sqrt(n)) + 1
   check = (n != 1)
   div = 2
 
-  while( check and (div < racine_n) ):
+  while( check and (div < root_n) ):
     check = (n%div != 0)
     div += 1
 
