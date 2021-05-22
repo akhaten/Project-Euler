@@ -1,4 +1,4 @@
-# https://projecteuler.net/problem=7 res 104743
+# https://projecteuler.net/problem=10
 
 import math
 
@@ -14,24 +14,22 @@ def isPrime(n):
 
   return check
 
+def sumPrimeNumberBelow(n):
 
-def findNPrimeNumber(n):
-  
-  last = 2
-  counter = 1
+  toAdd = 2
+  sum = 2
   k = 1
-  
-  while(last != 104743):
+
+  while(toAdd < n-1):
     toAdd = 2*k+1
     if(isPrime(toAdd)):
-      last = toAdd
-      counter += 1
+      sum += toAdd
     k += 1
 
-  return last
+  return sum
 
 
 
-print(findNPrimeNumber(10001))
+print(sumPrimeNumberBelow(2000000))
 
   
