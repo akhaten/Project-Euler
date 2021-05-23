@@ -20,8 +20,8 @@ def findNPrimeNumber(n):
   last = 2
   count = 1
   k = 1
-  
-  while(last != 104743):
+
+  while(count < n):
     toAdd = 2*k+1
     if(isPrime(toAdd)):
       last = toAdd
